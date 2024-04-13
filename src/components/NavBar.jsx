@@ -62,7 +62,7 @@ const NavBar = () => {
           active:shadow-sm duration-300 transition-all active:translate-y-1 
           "
           >
-            <Link to="/" className="flex sm:justify-start justify-center items-center ">
+            <Link to="/home" className="flex sm:justify-start justify-center items-center ">
               <IoCheckmarkDoneOutline className="sm:ml-4 " />
               <p className={`${mobile.block} mx-4 sm:block right-0`}>Tasks</p>
             </Link>
